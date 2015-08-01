@@ -83,14 +83,10 @@
 		CB6305651B6D1A8200DA58DF /* Hungry Club */ = {
 			isa = PBXGroup;
 			children = (
-				CB63056A1B6D1A8200DA58DF /* AppDelegate.h */,
-				CB63056B1B6D1A8200DA58DF /* AppDelegate.m */,
-				CB6305701B6D1A8200DA58DF /* ViewController.h */,
-				CB6305711B6D1A8200DA58DF /* ViewController.m */,
-				CB6305731B6D1A8200DA58DF /* Main.storyboard */,
+				CB63058F1B6D1AF700DA58DF /* app */,
+				CB6305901B6D1B0D00DA58DF /* data */,
+				CB6305921B6D1B3A00DA58DF /* ui */,
 				CB6305761B6D1A8200DA58DF /* Images.xcassets */,
-				CB6305781B6D1A8200DA58DF /* LaunchScreen.xib */,
-				CB63056D1B6D1A8200DA58DF /* Hungry_Club.xcdatamodeld */,
 				CB6305661B6D1A8200DA58DF /* Supporting Files */,
 			);
 			path = "Hungry Club";
@@ -120,6 +116,42 @@
 				CB6305841B6D1A8300DA58DF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB63058F1B6D1AF700DA58DF /* app */ = {
+			isa = PBXGroup;
+			children = (
+				CB63056A1B6D1A8200DA58DF /* AppDelegate.h */,
+				CB63056B1B6D1A8200DA58DF /* AppDelegate.m */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		CB6305901B6D1B0D00DA58DF /* data */ = {
+			isa = PBXGroup;
+			children = (
+				CB63056D1B6D1A8200DA58DF /* Hungry_Club.xcdatamodeld */,
+				CB6305911B6D1B1F00DA58DF /* models */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		CB6305911B6D1B1F00DA58DF /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		CB6305921B6D1B3A00DA58DF /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				CB6305701B6D1A8200DA58DF /* ViewController.h */,
+				CB6305711B6D1A8200DA58DF /* ViewController.m */,
+				CB6305731B6D1A8200DA58DF /* Main.storyboard */,
+				CB6305781B6D1A8200DA58DF /* LaunchScreen.xib */,
+			);
+			name = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
